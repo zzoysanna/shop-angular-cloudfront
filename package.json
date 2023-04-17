@@ -39,9 +39,9 @@
     "bootstrap": "^4.6.0",
     "rxjs": "^7.8.0",
     "serverless-finch": "^4.0.0",
+    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin",
     "tslib": "^2.5.0",
-    "zone.js": "^0.12.0",
-    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin"
+    "zone.js": "^0.12.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.1.5",
