@@ -11,7 +11,8 @@
     "e2e": "ng e2e",
     "prepare": "husky install",
     "release": "standard-version",
-    "lint:format": "npx --no-install lint-staged && npx --no-install pretty-quick --staged"
+    "lint:format": "npx --no-install lint-staged && npx --no-install pretty-quick --staged",
+    "cicd:local": "bash scripts/local_ci_cd.sh"
   },
   "private": true,
   "dependencies": {
